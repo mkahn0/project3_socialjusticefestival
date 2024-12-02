@@ -1,0 +1,47 @@
+#about {
+    background-color: rgb(144, 154, 232, 0.7);
+    width: 100dvw;
+    height: 100vh;
+    color: white;
+}
+
+#eventtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10em;
+    line-height: 80%;
+    padding-bottom: 2%;
+}
+
+#eventsubhead {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 90%;
+    padding-bottom: 2%;
+
+}
+
+#eventdetails {
+    text-transform: uppercase;
+    font-style:italic;
+    font-size: 1.75em;
+    padding-bottom: 2%;
+}
+
+#text {
+    padding-top: 13%;
+    padding-bottom: 3%;
+    width: 45%;
+}
+
+#button {
+    border: 3px solid white;
+    padding: 0.75%;
+    font-size: 1.75em;
+    text-transform: capitalize;
+    background-color: #182AB5;
+    width: auto;
+}

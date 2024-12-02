@@ -4,4 +4,69 @@
     box-sizing: border-box;
 
     font-size: 100%;
+
+    /* W3 Schools Tutorial: Scroll-Behavior Property: https://www.w3schools.com/cssref/pr_scroll-behavior.php */
+    scroll-behavior: smooth;
+
+}
+
+body {
+    width: 100dvh;
+    background-image: url("../img/stacked\ hands.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: #182AB5;
+    width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+header img {
+    width: 16%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    align-items: center;
+    justify-content: right;
+}
+
+nav a {
+    border: 3px solid white;
+    padding: 3%;
+    font-size: 1.75em;
+
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 15em;
+    color: #182AB5;
+}
+
+footer {
+    background-color:rgb(144, 154, 232, 0.7);
+    width: 100dvw;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    *{
+        font-size: 77%;
+    }
 }
