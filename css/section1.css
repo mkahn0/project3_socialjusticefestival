@@ -24,7 +24,6 @@
     font-size: 3em;
     line-height: 90%;
     padding-bottom: 2%;
-
 }
 
 #eventdetails {
@@ -36,7 +35,6 @@
 
 #text {
     padding-bottom: 3%;
-    /* width: 45%; */
 }
 
 #button {
@@ -51,8 +49,9 @@
 #button:hover{
     background-color: white;
     color: #182AB5;
-
 }
+
+
 
 @media screen and (max-width: 600px) {
     #about {
@@ -64,7 +63,6 @@
     #button {
         border: 1px solid white;
     }
-
     #text {
         width: 100%;
     }

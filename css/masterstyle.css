@@ -24,9 +24,6 @@ a {
 }
 
 header {
-    /* background-color: #182AB5; */
-    /* background-color: rgb(255, 255, 255, 0.5); */
-    /* background-color: white; */
     width: 100dvw;
     display: flex;
     flex-direction: row;
@@ -34,7 +31,6 @@ header {
     align-items: center;
     background-color: rgb(144, 154, 232, 0.7);
 
-    /* position: fixed; */
     padding-left: 5%;
     padding-right: 5%;
 
@@ -82,7 +78,6 @@ header nav a {
     background-color: #182AB5;
     padding: 3%;
     font-size: 1.75em;
-
 }
 
 header nav a:hover{
@@ -139,27 +134,25 @@ footer {
     width: 100%;
     margin: auto;
 }
+
+
+
 @media screen and (max-width: 600px) {
-    
     *{
         font-size: 90%;
     }
-
     body {
         background-size: 120vh;
         overflow: hidden;
     }
-
     header {
         padding-left: 2%;
         padding-right: 2%;
     }
-
     #head2 {
         padding-left: 2%;
         padding-right: 2%;
     }
-
     header nav a {
         border: 1px solid white;
     }

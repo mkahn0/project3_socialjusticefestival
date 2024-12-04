@@ -24,7 +24,6 @@ Color Wireframes:
 
 ## acknowledgement
 Fonts used: 
-<!-- <li>Helvetica Neue: regular, bold, condensed bold, italic </li> -->
 <li>Roboto</li>
 <li>Roboto Condensed</li>
 
