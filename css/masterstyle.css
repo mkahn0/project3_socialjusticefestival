@@ -148,7 +148,6 @@ footer {
     body {
         background-position-x: center;
         background-size: 120vh;
-
     }
 
     header {
@@ -170,7 +169,7 @@ footer {
     h1 {
         text-align: center;
         padding-top: 13%;
-        font-size: 10em;
+        font-size: 9em;
     }
     footer {
         padding-top: 8%;
