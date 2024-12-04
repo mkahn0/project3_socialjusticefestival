@@ -147,7 +147,7 @@ footer {
 
     body {
         background-size: 120vh;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     header {
