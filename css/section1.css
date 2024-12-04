@@ -1,8 +1,11 @@
 #about {
-    background-color: rgb(144, 154, 232, 0.7);
+    background-color: rgba(144, 154, 232, 0.702);
     width: 100dvw;
-    height: 100vh;
+    height: 90vh;
     color: white;
+
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #eventtitle {
@@ -32,9 +35,8 @@
 }
 
 #text {
-    padding-top: 13%;
     padding-bottom: 3%;
-    width: 45%;
+    /* width: 45%; */
 }
 
 #button {

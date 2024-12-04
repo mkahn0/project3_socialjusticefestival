@@ -7,6 +7,15 @@ This project involves creating a hypothetical festival event about a social caus
 This long-scroll webpage is coded with HTML and CSS in Visual Studio Code and hosted on GitHub. 
 
 ## initial sketches & ideas
+
+Process:
+
+Black + White Wireframes:
+<img src="img/blackandwhite-lowfed-wireframe-home.png">
+<img src="img/blackandwhite-lowfed-wireframe-schedule.png">
+<img src="img/blackandwhite-lowfed-wireframe-store.png">
+
+Color Wireframes:
 <img src="img/wireframe-home.png">
 <img src="img/wireframe-schedule.png">
 <img src="img/store.png">

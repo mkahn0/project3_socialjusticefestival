@@ -1,4 +1,39 @@
 #store {
     background-color: white;
     width: 100dvw;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    padding-bottom: 20%;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #28660D;
+    font-size: 1.75em;
+}
+
+h6 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+#merch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.merchitem {
+    width: 30%;
+}
+
+.merchitem img {
+    width: 100%;
 }

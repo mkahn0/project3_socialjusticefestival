@@ -22,14 +22,16 @@
             <link rel="stylesheet" href="css/section2.css">
             <link rel="stylesheet" href="css/section3.css">
 
+            <!-- <script src="js/masterscript.js"></script> -->
+
 
 
         </head>
         <body>
-            <header>
-                <a href="#about"><img src="img/logo-white.png"></a>
+            <header id="home">
+                <a href="#about"><img src="img/logo-blue.png"></a>
                 <nav>
-                    <a href="#about">About</a>
+                    <a href="#home">About</a>
                     <a href="#events"> Events </a>
                     <a href="#store">Store</a>
                 </nav>
@@ -37,69 +39,79 @@
 
             <section id="about">
                 <div id="text">
-                    <div id="eventtitle">Cancer Crushed</div>
-                    <div id="eventsubhead">Celebrate National Cancer Prevention Month </div>
+                    <div id="eventtitle">Cancer<br>Crushed</div>
+                    <div id="eventsubhead">Celebrate National Cancer<br> Prevention Month </div>
                     <div id="eventdetails">
                         <div id="eventdate">04/11/2025 - 04/13/2025</div>
-                        <div id="eventlocation"> location </div>
+                        <div id="eventlocation"> Moscone Center<br>747 Howard St, San Francisco, CA 94103 </div>
                     </div>
-                    <div>about blurb for event</div>
+                    <div>Cancer Crushed aims to inform, educate, and connect individuals who are battling or<br>
+                        have battled cancer, caretakers, and interested individuals. Cancer Crushed places<br>
+                        emphasis on education surrounding the latest oncology research and simple life<br>
+                        practices for cancer prevention.</div>
                 </div>  
 
                 <a id="button" href="#events"> See events below </a>
 
             </section>
-
+            <div id="head2">
+                <img src="img/logo-blue.png">
+                <nav>
+                    <a href="#home">About</a>
+                    <a href="#events"> Events </a>
+                    <a href="#store">Store</a>
+                </nav>
+            </div>
             <section id="events">
                 <h1>EVENTS</h1>
                 <div id="daily">
-                    <h2>Day 1 - 04/11/2025</h2>
+                    <h2 id="day1head">Day 1 - 04/11/2025</h2>
                     <div class="day">
-                            <div>
+                            <div class="event">
+                                <h5>10:00 AM - 11:00 PM</h5>
                                 <h3>Presentation: Cancer 101</h3>
-                                <h5>04/11/2025 10:00 AM - 11:00 PM</h5>
                                 <p>What is Cancer? Where does it come from? How does it affect us and what makes us susceptible to cancer? Get your questions answered at this introductory presentation.</p>
                             </div>
-                            <div>
+                            <div class="event">
+                                <h5>11:30 AM - 12:15 PM</h5>
                                 <h3>Cancer + Healthy Eating: A Cooking Demo</h3>
-                                <h5>04/11/2025 11:30 AM - 12:15 PM</h5>
                                 <p>Learn how healthy eating patterns can help promote cancer prevention. Recipe featured: __<strong>EDIT THIS: DISH #1</strong>__. Take-home recipe and info cards provided.</p>
                             </div>
-                            <div>
+                            <div class="event">
+                                <h5>2:30 PM - 4:00 PM</h5>
                                 <h3>Guest Panel: Breast Cancer Survivors</h3>
-                                <h5>04/11/2025 2:30-4:00 PM</h5>
                                 <p><strong>RE-EDIT THIS CAPTION</strong> Listen to the stories and experiences of breast cancer survivors.. Q&A at end.</p>
                             </div>
                     </div>
                     <h2>Day 2 - 04/12/2025</h2>
-                    <div class="day">
-                        <div>
+                    <div class="day" id="day2">
+                        <div class="event">
+                            <h5>11:30 AM - 12:15 PM</h5>
                             <h3>Cancer + Healthy Eating: A Cooking Demo</h3>
-                            <h5>04/12/2025 11:30 AM - 12:15 PM</h5>
                             <p>Learn how healthy eating patterns can help promote cancer prevention. Recipe featured: __<strong>EDIT THIS: DISH #2</strong>__. Take-home recipe and info cards provided.</p>
                         </div>
-                        <div>
+                        <div class="event">
+                            <h5>3:30 PM - 4:30 PM</h5>
                             <h3>Group Exercise + Activity Information Session</h3>
-                            <h5>04/12/2025 3:30-4:30 PM</h5>
                             <p><strong>RE-EDIT THIS CAPTION</strong></p>
                         </div>
                 </div>
                     </div>
                     <h2>Day 3 - 04/13/2025</h2>
                     <div class="day">
-                        <div>
+                        <div class="event">
+                            <h5>9:30 AM - 11:00 AM</h5>
                             <h3>The Genetic Risks of Childhood Cancer: Ryan Diver, MSPH, and Lauren Teras, PhD</h3>
-                            <h5>04/13/2025 9:30 AM - 11:00 AM</h5>
                             <p><strong>RE-EDIT THIS CAPTION</strong></p>
                         </div>
-                        <div>
+                        <div class="event">
+                            <h5>11:30 AM - 12:15 PM</h5>
                             <h3>Cancer + Healthy Eating: A Cooking Demo</h3>
-                            <h5>04/13/2025 11:30 AM - 12:15 PM</h5>
                             <p>Learn how healthy eating patterns can help promote cancer prevention. Recipe featured: __<strong>EDIT THIS: DISH #3</strong>__. Take-home recipe and info cards provided.</p>
                         </div>
-                        <div>
+                        <div class="event">
+                            <h5>2:30 PM - 4:00 PM</h5>
                             <h3>Cancer Survivor’s Network: Presentation & Mixer</h3>
-                            <h5>04/13/2025 2:30 PM - 4:00 PM</h5>
                             <p><strong>RE-EDIT THIS CAPTION</strong> Learn about the Cancer Survivor's Network, a subgroup within the American Cancer Society, and connect with fellow cancer survivors, their caretakers and family.</p>
                         </div>
                     </div>
@@ -108,18 +120,31 @@
 
             <section id="store">
                 <h1>MERCH</h1>
-                    <h4>MERCH TITLE bold all caps</h4>
-                    <h6>merch price (make this text italic)</h6>
-                    <h4>MERCH TITLE</h4>
-                    <h6>merch price (make this text italic)</h6>
-                    <h4>MERCH TITLE</h4>
-                    <h6>merch price (make this text italic)</h6>
+                <div id="merch">
+                    <div class="merchitem">
+                        <img src="img/tshirt.jpg">
+                        <h4>T-Shirt</h4>
+                        <h6>$25.00</h6>
+                    </div>
+                    <div class="merchitem">
+                        <img src="img/bag.jpg">
+                        <h4>Tote Bag</h4>
+                        <h6>$15.00</h6>
+                    </div>
+                    <div class="merchitem">
+                        <img src="img/notebook.jpg">
+                        <h4>Notebook</h4>
+                        <h6>$15.00</h6>
+                    </div>
+                </div>
             </section>
 
             <footer>
                 Proudly partnering with the American Cancer Society. 
                 links
-                donate? hmm
+                donate? hmm<br>
+
+                <img src="../img/acs-logo.svg">
             </footer>
         </body>
 </html>
