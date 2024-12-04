@@ -146,8 +146,8 @@ footer {
     }
 
     body {
-        background-position-x: center;
         background-size: 120vh;
+        overflow-x: hidden;
     }
 
     header {
