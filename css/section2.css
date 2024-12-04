@@ -55,11 +55,16 @@ h5 {
 }
 
 @media screen and (max-width: 600px) {
+    #events {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
     .day {
         flex-direction: column;
     }
     .event {
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding-bottom: 5%;
     }

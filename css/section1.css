@@ -48,10 +48,18 @@
     width: auto;
 }
 
+#button:hover{
+    background-color: white;
+    color: #182AB5;
+
+}
+
 @media screen and (max-width: 600px) {
     #about {
         background-color: rgba(144, 154, 232, 0.702);
-        height: 40vh;
+        height: 55vh;
+        padding-left: 2%;
+        padding-right: 2%;
     }
     #button {
         border: 1px solid white;
