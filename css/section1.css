@@ -47,3 +47,14 @@
     background-color: #182AB5;
     width: auto;
 }
+
+@media screen and (max-width: 600px) {
+    #about {
+        background-color: rgba(144, 154, 232, 0.702);
+        height: 40vh;
+    }
+    #button {
+        border: 1px solid white;
+    }
+
+}
