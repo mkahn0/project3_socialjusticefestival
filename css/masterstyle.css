@@ -100,7 +100,7 @@ header nav a:hover{
 
 h1 {
     padding-top: 8%;
-    font-size: 15em;
+    font-size: 10em;
     color: #182ab5;
 }
 
@@ -142,7 +142,9 @@ footer {
         font-size: 90%;
     }
     body {
-        background-size: 120vh;
+        /* background-size: 120vh; */
+        /* background-size: contain; */
+        /* create new 600px width img + link for background here */
     }
     header {
         padding-left: 2%;
