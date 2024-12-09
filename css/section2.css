@@ -2,8 +2,8 @@
     background-color: white;
     width: 100dvw;
 
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #daily {
@@ -26,7 +26,7 @@
 
 #day2 {
     justify-content: center;
-    column-gap: 10%;
+    column-gap: 13%;
 }
 
 .event {
