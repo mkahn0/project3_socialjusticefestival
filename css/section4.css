@@ -6,5 +6,48 @@
     padding-right: 10%;
 
     padding-bottom: 20%;
+}
 
+#ticketflex{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15%;
+    align-items: center;
+}
+
+#purchase {
+    border: 3px solid #182AB5;
+    background-color: white;
+    color: #182AB5;
+    padding: 0.75%;
+    font-size: 1.75em;
+
+    height: 25%;
+}
+
+#purchase:hover{
+    background-color: #182AB5;
+    color: white;
+}
+
+#pass{
+    padding-top: 10%;
+}
+
+@media screen and (max-width: 600px) {
+#tickets{
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+#ticketflex{
+    flex-direction: column;
+}
+#ticketinfo{
+    text-align: center;
+}
+#purchase{
+    margin-top: 7%;
+    border: 1px solid #182AB5;
+}
 }
